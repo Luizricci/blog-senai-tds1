@@ -29,5 +29,13 @@ header{
 #links a {
     text-decoration: none;
     color: #ececec;
-    font-size: 1.2rem;    
+    font-size: 1.2rem;  
+    border-bottom: 3px  solid transparent;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;  
+}
+#links a:hover{
+    border-bottom: 3px solid #ececec;
+    color: rgb(4, 255, 255);
+    transform: scale(1.1);
 }
